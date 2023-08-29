@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-image:url("bos.jpeg");
+    border-radius: 15px;
+    height: 410px;
+    background-repeat: no-repeat;
+    margin: 3rem 18rem;
+    border: 5px solid black;
+    color: white;
+}
+h2{
+    font-size: 30px;
+    width: bolder;
+    color:yellow;
+    margin-top: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    cursor: pointer;
+}
+#record{
+    background: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+.display{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+    cursor: pointer;
+}
+#increment{
+    background: red;
+    padding: 5px 24px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family:'Arial Narrow Bold';
+    margin-bottom: 10px;
+    cursor: pointer;
+
+    
+}
+#increment:hover{
+    font-size: 17px ;
+    transition: 0.3s;
+}
+.save{
+    background: green;
+    padding: 5px 3.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family:'Arial Narrow Bold';
+    cursor: pointer;
+}
+.save:hover{
+    font-size: 17px ;
+    transition: 0.3s;
+}
+#entries{
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    margin-top: 2rem;
+    cursor: pointer;
+    
+}
+
+.thisC{
+    background: black;
+    color: white;
+    padding: 1.5px;
+    margin-top: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
